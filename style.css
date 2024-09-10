@@ -165,16 +165,35 @@ nav {
   column-gap: 10px;
 }
 
-.footer {
-  text-align: center;
+.container{
   background-color: aqua;
+  text-align: center;
+  height: 50px;
+  color: white;
+}
+.footer {
   display: flex;
   flex-direction: row;
   height: 71px;
+  
 }
 
 .footer-item {
   display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+
+.footer-links{
+  display: flex;
   flex-direction: column;
   row-gap: 10px;
+}
+
+.footer-a{
+  width: 100;
+  font-size: 2rem;
+  border: none;
+  color: white;
 }
